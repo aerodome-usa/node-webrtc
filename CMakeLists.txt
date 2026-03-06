@@ -160,6 +160,9 @@ list(APPEND GN_GEN_ARGS
   rtc_enable_protobuf=false
   rtc_include_pulse_audio=false
   rtc_include_tests=false
+  rtc_use_h264=true
+  proprietary_codecs=true
+  "ffmpeg_branding=\"Chrome\""
   use_lld=false
   "target_cpu=\"$ENV{TARGET_ARCH}\""
   "${NIX_GN_GEN_ARGS}"
